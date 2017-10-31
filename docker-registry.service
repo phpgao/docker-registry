@@ -1,0 +1,15 @@
+[Unit]
+Description=Docker registry service
+After=network.target
+
+[Service]
+User=root
+Type=simple
+Restart=on-failure
+RestartSec=3
+WorkingDirectory=/usr/lib/docker-registry
+ExecStart=/usr/bin/docker-compose up
+ExecStop=/usr/bin/docker-compose down
+
+[Install]
+WantedBy=default.target

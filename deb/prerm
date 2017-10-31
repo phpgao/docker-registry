@@ -1,0 +1,4 @@
+#!/bin/bash
+
+systemctl stop docker-registry.service
+systemctl disable docker-registry.service

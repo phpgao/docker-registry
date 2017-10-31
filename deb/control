@@ -1,0 +1,7 @@
+Package: docker-registry
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: amd64
+Maintainer: Alex Oleshkevich <alex.oleshkevich@gmail.com>
+Description: A private docker registry.
