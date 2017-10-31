@@ -17,7 +17,7 @@ services:
         environment:
             REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
         volumes:
-            - data:/var/lib/registry
+            - data:/data
 
     registry_ui:
         image: konradkleine/docker-registry-frontend:v2
