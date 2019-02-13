@@ -45,7 +45,7 @@ Once installed, navigate `localhost:5080`.
 Read about how to add SSL at [docker-registry-frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/) and [library/registry](https://hub.docker.com/_/registry/).
 Those topics are also cover protection with auth.
 
-## Futher steps
+## Further steps
 Add a new virtual host to your server and setup it to proxy requests to the `docker-registry`
 to make registry be open to public.
 
